@@ -953,3 +953,32 @@ svg:hover {
 
 
 /* footer */
+
+
+/* scrollup */
+
+
+.scrollup {
+  position: fixed;
+  background-color: var(--blue);
+  right: -100%;
+  bottom: 20px;
+  display: inline-flex;
+  padding: 12px;
+  border-radius: 10px;
+}
+.scrollup:hover {
+  box-shadow: 0px 4px 10px #081F32;
+
+}
+.scrollup__icon:hover {
+  fill: #fff;
+  transition: fill .4s ease;
+}
+
+.show-scroll {
+  right: 25px;
+  bottom: 22px;
+}
+
+/* scrollup */
